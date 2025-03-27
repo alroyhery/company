@@ -35,9 +35,76 @@
     </div>
 
 </section>
-    
-<section>
 
+<section class="container service-container">
+    <h3>Our Service</h3>
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <div class="service-item">
+                <i class="fas fa-file-alt"></i>
+                <div>
+                    <h5>Lorem Ipsum</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur. Ultricies tellus enim molestie.</p>
+                </div>
+            </div>
+
+            <div class="service-item">
+                <i class="fas fa-list"></i>
+                <div>
+                    <h5>Lorem Ipsum</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur. Ultricies tellus enim molestie.</p>
+                </div>
+            </div>
+
+            <div class="service-item">
+                <i class="fas fa-users"></i>
+                <div>
+                    <h5>Lorem Ipsum</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur. Ultricies tellus enim molestie.</p>
+                </div>
+            </div>
+
+            <div class="service-item">
+                <i class="fas fa-chart-bar"></i>
+                <div>
+                    <h5>Lorem Ipsum</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur. Ultricies tellus enim molestie.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="image-placeholder"></div>
+        </div>
+    </div>
+</section>
+
+<section class="container service-section">
+    <h3>Lorem Ipsum</h3>
+    <p>Lorem ipsum dolor sit amet consectetur. Ultricies tellus enim molestie.</p>
+    
+    <div class="service-card-container">
+        <div class="service-card">
+            <div class="service-icon-box">
+                <i class="fas fa-cogs"></i>
+            </div>
+            <h5 class="mt-4">Lorem Ipsum</h5>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon-box">
+                <i class="fas fa-cogs"></i>
+            </div>
+            <h5 class="mt-4">Lorem Ipsum</h5>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon-box">
+                <i class="fas fa-cogs"></i>
+            </div>
+            <h5 class="mt-4">Lorem Ipsum</h5>
+        </div>
+    </div>
 </section>
 
 @endsection
