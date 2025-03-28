@@ -8,7 +8,7 @@ class LandingController extends Controller
 {
     public function index()
     {
-        return view('index');
+        return view('home.index');
     }
 
     public function about()
@@ -19,5 +19,10 @@ class LandingController extends Controller
     public function service()
     {
         return view('service.index');
+    }
+
+    public function contact()
+    {
+        return view('contact.index');
     }
 }

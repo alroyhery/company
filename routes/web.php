@@ -13,7 +13,7 @@ Route::get('/', function () {
 });
 
 //dashboard
-Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
 
 
@@ -41,6 +41,8 @@ Route::post('/product/update', [ProductController::class, 'ProductUpdate'])->nam
 
 
 //landing
+Route::get('/', [LandingController::class, 'index'])->name('dashboard');
 Route::get('/home', [LandingController::class, 'index'])->name('landing.home');
 Route::get('/service', [LandingController::class, 'service'])->name('landing.service');
 Route::get('/about', [LandingController::class, 'about'])->name('landing.about');
+Route::get('/contact', [LandingController::class, 'contact'])->name('landing.contact');

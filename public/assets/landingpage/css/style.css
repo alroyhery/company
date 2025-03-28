@@ -128,7 +128,7 @@ p {
 }
 
 .app-image {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 
@@ -247,17 +247,37 @@ p {
   padding: 20px 0px;
   width: 100%;
   z-index: 999;
-  background-color: rgb(207, 12, 12);
+  background-color:transparent;
   margin-bottom: 0px;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
+.navbar-custom .logo .logo-light {
+  display: inline-block;
+}
+
+.navbar-custom .logo .logo-dark {
+  display: none;
+}
+
+.navbar-custom  .button-light .btn-primary {
+  display: inline-block;
+  background-color: #1053F3 !important;
+  border-color: #1053F3 !important;
+  color: #FFFFFF;
+}
+
+.navbar-custom .button-dark  .btn-primary{
+  display: none;
+}
+
+
 
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
   line-height: 26px;
-  color: rgba(255, 255, 255, 0.7);
+  color: #000000;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
   background-color: transparent !important;
@@ -271,7 +291,7 @@ p {
 }
 
 .navbar-custom .navbar-nav .nav-item.active .nav-link {
-  color: #ffffff;
+  color: #000000;
 }
 
 .navbar-toggler {
@@ -285,7 +305,7 @@ p {
 .nav-sticky.navbar-custom {
   margin-top: 0px;
   padding: 10px 0px;
-  background-color: #050505;
+  background-color: #1053F3;
   transition: background-color 0.3s ease-in-out;
   -webkit-box-shadow: 0 10px 33px -14px rgba(0, 0, 0, 0.1);
           box-shadow: 0 10px 33px -14px rgba(0, 0, 0, 0.1);
@@ -299,16 +319,27 @@ p {
   display: none;
 }
 
+.nav-sticky.navbar-custom  .button-dark .btn-primary {
+  display: inline-block;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+  color: #1053F3;
+}
+
+.nav-sticky.navbar-custom  .button-light  .btn-primary{
+  display: none;
+}
+
 .nav-sticky.navbar-custom .navbar-nav .nav-item .nav-link {
-  color: rgba(50, 58, 70, 0.8);
+  color: rgb(255, 255, 255);
 }
 
 .nav-sticky.navbar-custom .navbar-nav .nav-item .nav-link:hover, .nav-sticky.navbar-custom .navbar-nav .nav-item .nav-link:active {
-  color: #1c1d1e;
+  color: rgb(255, 255, 255);
 }
 
 .nav-sticky.navbar-custom .navbar-nav .nav-item.active .nav-link {
-  color: #14181b;
+  color: rgb(255, 255, 255);
 }
 
 /******************
@@ -616,14 +647,17 @@ p {
   margin-bottom: 5px;
 }
 
-.image-placeholder {
-  background-color: #f2f2f2;
-  height: 250px;
-  border-radius: 10px;
-}
+
 
 .service-section {
+  text-align: center;
   padding: 50px 0;
+}
+
+.service-description {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #666;
 }
 
 .service-card-container {
@@ -634,13 +668,14 @@ p {
 }
 
 .service-card {
-  background-color: #f2f2f2;
+  background-color: #f8f9fa;
   width: 250px;
   height: 300px;
   border-radius: 10px;
   text-align: center;
   padding: 20px;
   position: relative;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .service-icon-box {
@@ -649,9 +684,58 @@ p {
   padding: 10px;
   display: inline-block;
   position: absolute;
-  top: -20px;
+  top: 15px;
+  left: 15px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon-box img {
+  width: 30px;
+  height: 30px;
+}
+
+.service-card-footer {
+  background-color: white;
+  padding: 10px;
+  position: absolute;
   left: 50%;
+  bottom: 30px; /* Adjust this to move it up or down */
   transform: translateX(-50%);
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 80%;
+}
+
+/******************
+    9.Contact
+*******************/
+
+.contact-section {
+  text-align: left; 
+  padding: 50px 0;
+  background-color: #fff;
+  padding-top: 200px;
+}
+
+.contact-section h3 {
+  font-size: 36px; 
+  font-weight: bold;
+}
+
+.contact-section p {
+  font-size: 18px; 
+  color: #555; 
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  text-align: left;
+}
+.contact-info div {
+  width: 30%;
 }
 
 /******************

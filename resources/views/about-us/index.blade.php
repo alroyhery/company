@@ -3,7 +3,7 @@
 @section('title', 'About Us')
 @section('content-landing')
         <!-- home start -->
-        <section class="bg-home bg-gradient" id="home">
+        {{-- <section class="bg-home bg-gradient" id="home">
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
@@ -36,7 +36,7 @@
                 <img src="images/bg-pattern.png" alt="">
             </div>
 
-        </section>
+        </section> --}}
         <!-- home end -->
         
         
@@ -133,22 +133,4 @@
         <div class="centered-image" >
             <img src="{{ asset('assets/landingpage/img/gambarabout.png') }}" alt="Mobile App" class="app-image img-fluid" style="width:80%">
         </div>
-
-        <!-- available demos start -->
-       
-        <!-- footer end -->
-
-      
-
-        <!-- Javascript -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/jquery.easing.min.js"></script>
-        <script src="js/scrollspy.min.js"></script>
-
-        <!-- owl-carousel -->
-        <script src="js/owl.carousel.min.js"></script>
-
-        <!-- custom js -->
-        <script src="js/app.js"></script>
 @endsection

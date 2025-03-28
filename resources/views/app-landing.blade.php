@@ -27,6 +27,7 @@
 
         <!-- Custom  sCss -->
         <link rel="stylesheet" type="text/css" href="{{ asset('assets/landingpage/css/style.css') }}" />
+        @stack('styles')
     </head> 
     <body>
 

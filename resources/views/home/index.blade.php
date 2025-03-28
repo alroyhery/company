@@ -98,29 +98,28 @@
         </div>
 
     </div>
-    <div class="container gradient-bg">
+    <section class="container my-5">
         <div class="row align-items-center">
-            <!-- Left Image -->
-            <div class="col-md-6 text-center">
-                <img src="{{ asset('assets/landingpage') }}" alt="Credit Cards" class="img-fluid">
+            <!-- Image Section -->
+            <div class="col-md-5 text-center">
+                <img src="{{ asset('assets/landingpage/img/dompet.png') }}" alt="Digital Investment" class="img-fluid">
             </div>
-            <!-- Right Content -->
-            <div class="col-md-6">
-                <h2 class="fw-bold">Simple & fast payment</h2>
-                <p>Use receiving accounts in a growing number of currencies and get paid like a local. Pay freelancers and customers anywhere in the world straight.</p>
-                <p class="testimonial">“Transferring is very easy and super fast. I find a different way from Coca Pay. Perfect payment app for all!”</p>
-                <div class="d-flex align-items-center">
-                    <div class="me-3">
-                        <img src="" alt="Profile Picture" class="rounded-circle" width="40" height="40">
-                    </div>
-                    <div>
-                        <p class="testimonial-author mb-0">Jesica Azalea</p>
-                        <p class="author-role">Director of Technology, Sans Bothers</p>
-                    </div>
-                </div>
+            
+            <!-- Text Section -->
+            <div class="col-md-7">
+                <h3 class="fw-bold">Digital investment</h3>
+                <p class="text-muted">
+                    Digital investment is not merely about allocating capital into the latest technologies. 
+                    It’s about strategically harnessing the power of innovation to drive meaningful 
+                    transformation across industries. By embracing digital platforms, we unlock 
+                    opportunities for growth, efficiency, and sustainability, while navigating the 
+                    ever-changing landscape of the digital world. True digital investment is a forward-thinking 
+                    approach that empowers businesses to thrive in an interconnected, technology-driven future.
+                </p>
             </div>
         </div>
-    </div>
+    </section>
+    
     
     <!-- Partners Section -->
     <div class="container text-center mt-5">
@@ -151,9 +150,11 @@
                 <div class="faq-box">How do I sign up for a digital banking account?</div>
                 <div class="faq-box">What services are available through digital banking?</div>
                 <div class="faq-box">What should I do if I suspect fraud on my account?</div>
+                <div class="faq-box">What should I do if I suspect fraud on my account?</div>
+                <div class="faq-box">What should I do if I suspect fraud on my account?</div>
             </div>
             <div class="col-md-6 text-center">
-                <img src="" alt="FAQ Image" class="faq-image">
+                <img src="{{ asset('assets/landingpage/img/orangtanganbuka.png') }}" alt="FAQ Image" class="faq-image">
             </div>
         </div>
     </div>
@@ -162,7 +163,7 @@
     <div class="container mt-5">
         <div class="row align-items-center">
             <div class="col-md-6 text-center">
-                <img src="" alt="Challenges Image" class="img-fluid">
+                <img src="{{ asset('assets/landingpage/img/orang.png') }}" alt="Challenges Image" class="img-fluid">
             </div>
             <div class="col-md-6">
                 <h3>Challenges In <span class="highlight">Digital Banking</span></h3>
