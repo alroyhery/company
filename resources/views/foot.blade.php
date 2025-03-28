@@ -1,69 +1,68 @@
 <footer class="footer">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-4">
-                <div class="mb-3">
-                    <img src="images/logo-light.png" alt="" height="20">
-                </div>
-                <p>Bootstrap 4 Landing Page Template</p>
-                <div class="pt-1">
-                    <div class="float-left mr-2">
-                        <i class="pe-7s-phone h4 text-white"></i>
+            <div class="col-md-10">
+                <h2>Lets Join Digis, </br>We Protect Your Money</h1>
+                    <div class="row pt-4">
+                        <div class="col-md-6 d-flex">
+                            <p>
+                                <i class="mdi mdi-google-maps text-primary mr-2"
+                                    style="border-radius: 50%; padding: 7px; background-color: #fff"></i>
+                            </p>
+                            <p>
+                                Kemang Raya No.4, RT.11/RW.1, Bangka, Kec.
+                                Mampang Prpt.,
+                                Kota Jakarta
+                                Selatan,
+                                Daerah
+                                Khusus Ibukota Jakarta 12730
+
+                            </p>
+                        </div>
+                        <div class="col-md-6 d-flex">
+                            <p>
+                                <i class="mdi mdi-email text-primary mr-2"
+                                    style="border-radius: 50%; padding: 8px; background-color: #fff"></i>
+                            </p>
+                            <p>
+                                <a href="mailto:digis@gmail.com" class="text-white">digis@gmail.com</a>
+                            </p>
+                        </div>
                     </div>
-                    <p class="text-white-50 overflow-hidden">(123) 456-7890</p>
-                </div>
-                <div>
-                    <div class="float-left mr-2">
-                        <i class="pe-7s-mail h4 text-white"></i>
-                    </div>
-                    <p class="text-white-50 overflow-hidden mb-0">example@abc.com</p>
-                </div>
             </div>
-            <div class="col-lg-2">
-                <div class="footer-list">
-                    <p class="text-white mb-3">About</p>
-                    <ul class="list-unstyled footer-list">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="#">Clients</a></li>
-                    </ul>
-                </div>
+
+
+
+        </div>
+        <hr style="background-color: #3B8CF4; height: 1px; border: 0;" />
+
+
+        <div class="d-md-flex justify-content-between">
+            <div>
+                <p>&copy; Digital Inti Generasi</p>
             </div>
-            <div class="col-lg-2">
-                <div class="footer-list">
-                    <p class="text-white mb-3">Social</p>
-                    <ul class="list-unstyled footer-list">
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Behance</a></li>
-                        <li><a href="#">Dribbble</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-2">
-                <div class="footer-list">
-                    <p class="text-white mb-3">Resources</p>
-                    <ul class="list-unstyled footer-list">
-                        <li><a href="#">Help & Support</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms & Conditions</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-2">
-                <div class="footer-list">
-                    <p class="text-white mb-3">More Info</p>
-                    <ul class="list-unstyled footer-list">
-                        <li><a href="#">For Marketing</a></li>
-                        <li><a href="#">For CEOs</a></li>
-                        <li><a href="#">For Agencies</a></li>
-                        <li><a href="#">Our Apps</a></li>
-                    </ul>
-                </div>
+            <div class="d-md-flex d-sm-block">
+                <ul class="list-unstyled d-md-flex">
+                    <li>
+                        <a href="#" class="text-white mr-2">Terms & Condition</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-white">Privacy Policy</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <!-- row end -->
+
+
+
     </div>
-    <!-- container-fluid end -->
+
+    {{-- <div
+        style="width:600px; height:600px; overflow:hidden; background-color:black; margin-top: -500px; position:absolute; float:left;">
+        <span class="text-white float-right"
+            style="opacity:0.1; position: :absolute; font-weight:bold; margin-top:-600px; font-size:60vh; margin-right: -190px; ">C</span>
+    </div> --}}
+
+
+
 </footer>

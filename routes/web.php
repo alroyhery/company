@@ -8,14 +8,12 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\LandingController;
 
-Route::get('/', function () {
-    return view('crud.about.index');
-});
+// Route::get('/', function () {
+//     return view('crud.about.index');
+// });
 
 //dashboard
 Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
-
-
 
 
 //about us

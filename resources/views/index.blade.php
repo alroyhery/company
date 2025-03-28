@@ -10,13 +10,16 @@
                 <h2><strong><em>Finance Future Of</em></strong></h2>
                 <h2>Digital Banking</h2>
                 <p>
-                    Explore how digital banking is transforming the financial world, offering unprecedented convenience, security, and efficiency. From mobile banking apps to blockchain technology, this comprehensive guide delves into the future of finance.
+                    Explore how digital banking is transforming the financial world, offering unprecedented convenience,
+                    security, and efficiency. From mobile banking apps to blockchain technology, this comprehensive guide
+                    delves into the future of finance.
                 </p>
             </div>
-    
+
             <!-- Image Section -->
             <div class="col-md-6 finance-img-container">
-                <img class="hp img-fluid custom-img" src="{{ asset('assets/landingpage/img/image.png') }}" alt="Phone Mockup 1" class="finance-img">
+                <img class="hp img-fluid custom-img" src="{{ asset('assets/landingpage/img/image.png') }}" alt="Phone Mockup 1"
+                    class="finance-img">
             </div>
         </div>
     </div>
@@ -32,17 +35,17 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="card text-center  text-white"  style="background: #1053F3">
+                    <div class="card text-center  text-white" style="background: #1053F3">
                         <div class="card-body">Lorem Ipsum</div>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="card text-center  text-white"  style="background: #1053F3">
+                    <div class="card text-center  text-white" style="background: #1053F3">
                         <div class="card-body">Lorem Ipsum</div>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="card text-center  text-white"  style="background: #1053F3">
+                    <div class="card text-center  text-white" style="background: #1053F3">
                         <div class="card-body">Lorem Ipsum</div>
                     </div>
                 </div>
@@ -107,8 +110,10 @@
             <!-- Right Content -->
             <div class="col-md-6">
                 <h2 class="fw-bold">Simple & fast payment</h2>
-                <p>Use receiving accounts in a growing number of currencies and get paid like a local. Pay freelancers and customers anywhere in the world straight.</p>
-                <p class="testimonial">“Transferring is very easy and super fast. I find a different way from Coca Pay. Perfect payment app for all!”</p>
+                <p>Use receiving accounts in a growing number of currencies and get paid like a local. Pay freelancers and
+                    customers anywhere in the world straight.</p>
+                <p class="testimonial">“Transferring is very easy and super fast. I find a different way from Coca Pay.
+                    Perfect payment app for all!”</p>
                 <div class="d-flex align-items-center">
                     <div class="me-3">
                         <img src="" alt="Profile Picture" class="rounded-circle" width="40" height="40">
@@ -121,7 +126,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Partners Section -->
     <div class="container text-center mt-5">
         <h3 class="fw-bold">Mitra Kami</h3>
@@ -157,7 +162,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Challenges in Digital Banking -->
     <div class="container mt-5">
         <div class="row align-items-center">
@@ -167,20 +172,20 @@
             <div class="col-md-6">
                 <h3>Challenges In <span class="highlight">Digital Banking</span></h3>
                 <p>
-                    <span class="highlight">Digital banking has revolutionized the financial services</span> 
+                    <span class="highlight">Digital banking has revolutionized the financial services</span>
                     offering convenience and accessibility.
                 </p>
                 <a href="#" class="text-dark fw-bold">Learn More →</a>
                 <hr>
                 <p>
-                    <span class="highlight">Digital banking has revolutionized the financial services</span> 
+                    <span class="highlight">Digital banking has revolutionized the financial services</span>
                     offering convenience and accessibility.
                 </p>
                 <a href="#" class="text-dark fw-bold">Learn More →</a>
             </div>
         </div>
     </div>
-    
+
     <!-- Mobile Banking App -->
     <div class="container mt-5">
         <div class="row align-items-center">
@@ -195,7 +200,7 @@
             </div>
             <div class="col-md-6">
                 <p>
-                    <span class="highlight">Digital banking has revolutionized the financial services</span> 
+                    <span class="highlight">Digital banking has revolutionized the financial services</span>
                     offering convenience and accessibility.
                 </p>
                 <a href="#" class="text-dark fw-bold">Learn More →</a>
@@ -204,14 +209,12 @@
     </div>
 
 
-    <div class="centered-image" >
+    <div class="centered-image">
         <img src="{{ asset('assets/landingpage/img/grouphp.png') }}" alt="Mobile App" class="app-image img-fluid">
     </div>
-    
-    
-    
-    @push('js')
 
-    
+
+
+    @push('js')
     @endpush
 @endsection

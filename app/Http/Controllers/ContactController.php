@@ -18,8 +18,6 @@ class ContactController extends Controller
     {
         $contact = Contact::where('deleted_at', null);
 
-
-
         return DataTables::eloquent($contact)
             ->only([
                 'id',
@@ -36,11 +34,13 @@ class ContactController extends Controller
             })
             ->addColumn('action', function ($row) {
                 return '<button class="btn btn-sm btn-primary mr-2" onclick="editContact(' . $row->id . ')"><i class=" mdi mdi-square-edit-outline "></i></button>
-                <button class="btn btn-sm btn-danger" onclick="deleteContact(' . $row->id. ')"><i class=" mdi mdi-trash-can-outline "></i></button>';
+                <button class="btn btn-sm btn-danger" onclick="deleteContact(' . $row->id . ')"><i class=" mdi mdi-trash-can-outline "></i></button>';
             })
 
             ->rawColumns([
-                'action', 'created_at'])
+                'action',
+                'created_at'
+            ])
             ->toJson();
     }
 
