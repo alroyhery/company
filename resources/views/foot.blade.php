@@ -59,18 +59,18 @@
 
 
         </div>
-        <div class="absolute"
+        {{-- <div style="position:absolute"
             style="width: 300px; height:400px; float: right; overflow:hidden; 
             margin-top:-400px; background-color:aquamarine">
-            <div class="relative">
-                <div class="absolute">
-                    <span
-                        style="font-weight: bold; float: right; font-size:30em; overflow:hidden; margin-right:-80px; opacity:0.1">
+            <div class="relative" style="overflow: hidden">
+                <div style="position:absolute">
+                    <div
+                        style="font-weight: bold; float: right; font-size:30em; overflow:hidden; margin-right:-90px; margin-top:-100px">
                         C
-                    </span>
+                    </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
 
 
